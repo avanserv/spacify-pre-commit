@@ -1,0 +1,8 @@
+- id: spacify
+  name: spacify
+  description: "Format the vertical rhythm of Python code: blank lines around logical blocks."
+  entry: spacify --force-exclude
+  language: python
+  types_or: [python, pyi]
+  require_serial: true
+  minimum_pre_commit_version: "2.9.2"
