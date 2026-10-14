@@ -2,13 +2,13 @@
 # what pre-commit and prek do with a `language: python` hook. The release workflow in
 # avanserv/spacify moves the pin and tags this repository with the same version.
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "spacify-pre-commit"
 version = "0.0.0"
-requires-python = ">=3.9"
+requires-python = ">=3.7"
 dependencies = ["spacify==0.1.0"]
 
 [tool.setuptools]
