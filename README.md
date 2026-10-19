@@ -9,11 +9,11 @@ Put it after `ruff-format`, so spacify sees ruff's line wrapping:
 ```yaml
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.1.1
+    rev: v0.2.0
     hooks:
       - id: ruff-format
   - repo: https://github.com/avanserv/spacify-pre-commit
-    rev: v0.1.1
+    rev: v0.2.0
     hooks:
       - id: spacify
 ```
