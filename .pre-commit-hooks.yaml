@@ -1,8 +1,8 @@
 - id: spacify
   name: spacify
-  description: "Format the vertical rhythm of Python code: blank lines around logical blocks."
+  description: "Format the vertical rhythm of Python and Rust code: blank lines around logical blocks."
   entry: spacify --force-exclude
   language: python
-  types_or: [python, pyi]
+  types_or: [python, pyi, rust]
   require_serial: true
   minimum_pre_commit_version: "2.9.2"
