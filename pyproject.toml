@@ -9,7 +9,7 @@ build-backend = "setuptools.build_meta"
 name = "spacify-pre-commit"
 version = "0.0.0"
 requires-python = ">=3.7"
-dependencies = ["spacify==0.2.1"]
+dependencies = ["spacify==0.3.0"]
 
 [tool.setuptools]
 py-modules = []

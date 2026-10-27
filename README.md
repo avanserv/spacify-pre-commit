@@ -14,7 +14,7 @@ repos:
     hooks:
       - id: ruff-format
   - repo: https://github.com/avanserv/spacify-pre-commit
-    rev: v0.2.1
+    rev: v0.3.0
     hooks:
       - id: spacify
 ```
